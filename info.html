@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <link rel="stylesheet" href="./info.css">
+</head>
+<body>
+    <h1>Student Information</h1>
+
+    <div class="form-container">
+        <form id="student-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="email" placeholder="Email" required>
+            <button type="submit">Add Student</button>
+        </form>
+    </div>
+
+    <div class="student-list">
+        <ul id="students"></ul>
+    </div>
+
+   <script type="module" src="./config.js"></script>
+   <script type="module" src="./app.js"></script>
+</body>
+</html>
